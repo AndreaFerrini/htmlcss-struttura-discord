@@ -125,7 +125,7 @@ main section div {
     margin: 0 auto;
     width: 80%;
 }
-footer section div {
+footer .finale div {
     height: 500px;
     border: 2px dotted black;
 }
@@ -136,4 +136,17 @@ footer section div {
 .colonne {
     width: 19%;
     background-color: aqua;
+}
+hr {
+    background-color: grey;
+    border: 2px solid grey;
+}
+.piedipagina {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: aqua;
+    height: 5px;
+    margin-top: 10px;
 }
