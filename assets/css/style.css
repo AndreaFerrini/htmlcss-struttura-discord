@@ -2,12 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: cornflowerblue;
 }
 header {
     background-color: cornflowerblue;
-    min-height: 200px;
+    min-height: 300px;
+    margin: 30px;
 }
 footer {
     background-color: rgb(39, 32, 32);
-    min-height: 300px;
+    min-height: 400px;
+}
+.mainmenu {
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 5px;
+}
+#logo {
+    display: flex;
+    flex-basis: 25%;
+}
+#link {
+    flex-basis: 48%;
+    display: flex;
+    justify-content: center;
+}
+#login {
+    display: flex;
+    flex-basis: 25%;
+    justify-content: flex-end;
 }
